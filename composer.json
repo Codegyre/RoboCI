@@ -1,0 +1,20 @@
+{
+    "name": "codegyre/robo-ci",
+    "description": "Travis CI cli runner",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davert",
+            "email": "davert.php@resend.cc"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Codegyre\\RoboCI\\":"src"
+        }
+    },
+    "require": {
+        "symfony/yaml": "~2.0",
+        "codegyre/robo-docker": "@dev"
+    }
+}
