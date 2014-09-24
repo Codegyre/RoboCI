@@ -16,10 +16,16 @@ Requires [Docker](http://docker.io) and [Robo PHP Task Runner](http://robo.li) t
 
 ## Installation
 
-Execute in composer
+Use Composer
 
 ```
-composer require "codegyre/robo-ci:*" --dev
+{
+    "require-dev": {
+        "codegyre/robo": "*",
+        "codegyre/robo-ci": "@dev"
+    }
+}
+
 ```
 
 Create `RoboFile.php` in the root of your project (if it is not already there), by simply running `robo`.
