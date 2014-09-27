@@ -14,7 +14,7 @@ trait Build
      *
      * @param array $opts
      */
-    public function travisBuild($opts = ['name' => null, 'recipes' => false, 'image' => false])
+    public function ciTravisBuild($opts = ['name' => null, 'recipes' => false, 'image' => false])
     {
         if (!$opts['image']) $opts['image'] = Config::$baseImage;
         return (new Builder)->execute($opts);

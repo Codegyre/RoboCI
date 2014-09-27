@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "882f9b8c6ff014ec91e9f9b39016b1be",
+    "hash": "e667456612577e11231803ebba91b43b",
     "packages": [
         {
             "name": "codegyre/robo-docker",
-            "version": "dev-master",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codegyre/robo-docker.git",
-                "reference": "e9e0b5fb75eee43e68f0f99ec5dcf2b105e1b27f"
+                "reference": "69aec8b828890e86d5c74bb53c74045ce5ca2f70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codegyre/robo-docker/zipball/e9e0b5fb75eee43e68f0f99ec5dcf2b105e1b27f",
-                "reference": "e9e0b5fb75eee43e68f0f99ec5dcf2b105e1b27f",
+                "url": "https://api.github.com/repos/Codegyre/robo-docker/zipball/69aec8b828890e86d5c74bb53c74045ce5ca2f70",
+                "reference": "69aec8b828890e86d5c74bb53c74045ce5ca2f70",
                 "shasum": ""
             },
             "type": "library",
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "Docker Tasks for Robo Task Runner",
-            "time": "2014-09-23 02:13:21"
+            "time": "2014-09-26 23:58:29"
         },
         {
             "name": "symfony/yaml",
@@ -94,9 +94,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "codegyre/robo-docker": 20
-    },
+    "stability-flags": [
+
+    ],
     "prefer-stable": false,
     "platform": [
 

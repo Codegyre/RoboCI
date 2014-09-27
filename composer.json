@@ -15,6 +15,6 @@
     },
     "require": {
         "symfony/yaml": "~2.0",
-        "codegyre/robo-docker": "@dev"
+        "codegyre/robo-docker": "*"
     }
 }

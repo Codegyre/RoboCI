@@ -20,7 +20,7 @@ use Symfony\Component\Yaml\Yaml;
 trait Prepare
 {
     /**
-     * Creates Dockerfile in .roboci dir in order to create container
+     * Generates .roboci environments from Travis CI
      */
     public function ciTravisPrepare()
     {

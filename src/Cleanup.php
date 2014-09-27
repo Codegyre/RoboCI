@@ -15,7 +15,7 @@ class Cleanup
     public function retrieveContainers()
     {
         $this->printTaskInfo("Getting all robo_* containers");
-        $res = $this->taskExec('docker ps | grep robo_')->printed(false)->run();
+        $res = $this->taskExec('docker ps -a | grep robo_')->printed(false)->run();
         if (!$res->wasSuccessful()) {
             $this->printTaskInfo("No containers matched");
             return;
