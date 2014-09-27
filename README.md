@@ -80,7 +80,7 @@ Take a note, that each time you update `.travis.yml`, you will need to rebuild e
 
 #### Optimizations
 
-It is highly recommended that all scripts that all operations that could be cached to be stored into `install` section of TravisCI.
+It is highly recommended that all operations that could be cached to be stored into `install` section of TravisCI.
 This will allow RoboCI to include them into Dockerfile and make Docker save them in intermediate containers.
 
 If you are installing packages, or running `composer install` in before_script, you can move them to `install` to speed up containers launch.
