@@ -56,7 +56,7 @@ class EnvGenerator
         $this->php = $php;
         $this->config = $config;
         if (!file_exists(Config::$runDir."/$php")) {
-            @mkdir(Config::$runDir."/$phpVersion");
+            @mkdir(Config::$runDir."/$php");
         }
     }
 
