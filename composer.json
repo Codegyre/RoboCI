@@ -16,6 +16,7 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/yaml": "~2.0",
-        "codegyre/robo-docker": "*"
+        "codegyre/robo-docker": "0.1.*",
+        "codegyre/Robo": "0.4.*"
     }
 }
